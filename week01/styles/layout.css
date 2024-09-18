@@ -6,9 +6,8 @@ header p {
 header nav {
     padding: 20px;
     background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 header nav a {
