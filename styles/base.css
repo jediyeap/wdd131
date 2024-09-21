@@ -1,6 +1,7 @@
 header p {
     padding: 20px;
     background-color: darkgray;
+    text-align: center;
 }
 
 header nav {
@@ -39,4 +40,5 @@ footer {
 
 footer p {
     color: white;
+    text-align: center;
 }
