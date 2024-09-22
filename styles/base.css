@@ -60,7 +60,10 @@ main {
 .aside_content {
     padding: 20px;
     background-color: white;
-    grid-column: 3/4;
+}
+
+img {
+    width: 200px;
 }
 
 footer {
