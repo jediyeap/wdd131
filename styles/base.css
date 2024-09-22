@@ -30,6 +30,7 @@ header nav {
     background-color: black;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 header nav a {
@@ -54,7 +55,7 @@ main {
 .about_me {
     text-align: center;
     background-color: #2D728F;
-    padding: 20px;
+    color: white;
 }
 
 h2 {
@@ -69,6 +70,11 @@ h2 {
     border-radius: 20px;
 }
 
+.about {
+    display: flex;
+    margin: 20px;
+}
+
 .card {
     display: grid;
     padding: 10px;
@@ -78,8 +84,8 @@ h2 {
 .card h2 {
     text-align: center;
     grid-column: 1/4;
-    border-bottom-style: 1px solid black;
-    margin: 10px;
+    border-bottom: 2px solid black;
+    margin: 20px;
 }
 
 .card img {
@@ -94,6 +100,24 @@ h2 {
 .aside_content {
     padding: 20px;
     background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.aside_content h2 {
+    text-align: center;
+    padding: 20px;
+    background-color:#2D728F;
+    color: white;
+}
+
+.aside_content ul {
+    padding: 20px;
+}
+
+.aside_content nav a {
+    color: black;
 }
 
 img {
