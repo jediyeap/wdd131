@@ -78,10 +78,13 @@ h2 {
 .card h2 {
     text-align: center;
     grid-column: 1/4;
+    border-bottom-style: 1px solid black;
+    margin: 10px;
 }
 
 .card img {
     grid-column: 1/2;
+    border: 1px solid black;
 }
 
 .card p {
