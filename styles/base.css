@@ -3,8 +3,7 @@
 :root {
     --heading-font: 'Roboto', normal;
     --paragraph-font: 'Roboto', normal;
-
-    --nav-background-color: var(--accent2-color);
+    
     --nav-link-color: white;
     --nav-hover-link-color: yellow;
 }
