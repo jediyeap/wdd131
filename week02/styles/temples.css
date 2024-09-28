@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: royalblue;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    main h1 {
+        grid-column: 1/2;
+    }
+
+    figure img {
+        width: 200px;
+    }
+}
