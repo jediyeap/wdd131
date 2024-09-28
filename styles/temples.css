@@ -35,6 +35,10 @@ nav a:hover {
     color: yellow;
 }
 
+footer {
+    text-align: center;
+}
+
 
 @media screen and (max-width: 640px) {
     main {
