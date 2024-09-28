@@ -35,22 +35,26 @@ nav a:hover {
     color: yellow;
 }
 
+main h2 {
+    text-align: center;
+}
+
+figure img {
+    width: 400px;
+}
+
 footer {
     text-align: center;
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 500px) {
     main {
         display: grid;
         grid-template-columns: 1fr;
     }
 
     main h1 {
-        grid-column: 1/2;
-    }
-
-    figure img {
-        width: 200px;
+        grid-column: 1/3;
     }
 }
